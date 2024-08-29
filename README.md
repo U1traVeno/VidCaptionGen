@@ -4,6 +4,7 @@ Generate video caption in crt format.
 - python of course
 - faster-whisper
 - ffmpeg-python
+- CUDA
 
 
 ```mermaid

@@ -27,7 +27,7 @@ def transcribe_audio_to_txt(audio_file_path, output_file_path, model_size="large
             file.write(f"[{segment.start:.2f}s -> {segment.end:.2f}s] {segment.text}\n")
 
     print(f"Transcription has been saved to '{output_file_path}'")
-
+    
     # Example usage
     # transcribe_audio_to_txt("audio.mp3", "transcription_output.txt")
 
