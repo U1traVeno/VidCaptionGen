@@ -23,8 +23,6 @@ def transcribe_audio_to_txt(audio_file_path, output_file_path, model_size="large
 
     # Write the transcription to the output file
     with open(output_file_path, "w") as file:
-        file.write(f"Detected language '{info.language}' with probability {info.language_probability:.6f}\n\n")
-        
         for segment in segments:
             file.write(f"[{segment.start:.2f}s -> {segment.end:.2f}s] {segment.text}\n")
 

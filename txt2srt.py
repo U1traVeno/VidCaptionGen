@@ -91,3 +91,4 @@ def format2srt(ori_txt, translate, mode):
 
 def test_translate(text):
     return text + "的中文翻译"
+

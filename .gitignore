@@ -162,3 +162,8 @@ cython_debug/
 #.idea/
 
 examples/
+mp3_files/
+mp4_files/
+srt_files/
+txt_files/
+.conda/
